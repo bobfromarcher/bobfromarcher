@@ -1,6 +1,6 @@
 Bob Robert
 
-Founder & CEO of [de Montfort LLC](https://github.com/bobfromarcher)** — AI-powered tools for compliance, automation, and local-first intelligence.
+Founder & CEO of [de Montfort LLC](https://github.com/bobfromarcher) — AI-powered tools for compliance, automation, and local-first intelligence.
 
 ## 🛠 Open Source Projects
 
