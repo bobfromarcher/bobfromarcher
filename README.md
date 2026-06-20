@@ -1,89 +1,89 @@
 <h1 align="center">Bob Robert</h1>
 
-<p align="center"><strong>de Montfort LLC</strong> — building products, and the <strong>zero-dependency, zero-AI developer tools</strong> that ship them.</p>
+<p align="center">de Montfort LLC. I build products, and the zero-dependency, zero-AI developer tools that ship them.</p>
 
 <p align="center">
   <img src="stats.svg" alt="GitHub stats" height="200" />
   <img src="languages.svg" alt="Top languages" height="198" />
 </p>
 
-## 🚀 Products
+## Products
 
-- **[TachyonTracker](https://tachyontracker.com)** — AI-powered contractor compliance & COI verification (3 seconds, not 3 days)
-- **[COI Validator API](https://coivalidator.com)** — Standalone COI validation API (blue ocean — no direct competitor)
-- **[gradeAfoods](https://gradeafoods.com)** — food-industry tooling
+- [TachyonTracker](https://tachyontracker.com): contractor compliance and COI verification in seconds instead of days.
+- [COI Validator API](https://coivalidator.com): a standalone certificate-of-insurance validation API.
+- [gradeAfoods](https://gradeafoods.com): food-industry tooling.
 
-## 🛠️ The toolbelt
+## The toolbelt
 
-A suite of polished command-line tools — **no dependencies, no AI at runtime, MIT-licensed**, tested across Linux/macOS/Windows on Node 18/20/22. Every one is `npx`-runnable.
+A set of command-line tools with no dependencies, no AI at runtime, MIT-licensed, tested on Node 18, 20 and 22 across Linux, macOS and Windows. Each one runs with `npx`.
 
 <table>
   <tr>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/bobfromarcher/gitpulse">gitpulse</a></h3>
-      <p>A one-screen health report for any git repo — commit cadence, hot files, contributors, language mix, TODO markers.</p>
+      <p>A one-screen health report for any git repo: commit activity, hot files, contributors, language mix and TODO markers.</p>
       <p><code>npx @bobfromarcher/gitpulse</code></p>
     </td>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/bobfromarcher/envdoc">envdoc</a></h3>
-      <p>Find every env var your code reads, then document it — generate <code>.env.example</code> and fail CI on undocumented vars.</p>
+      <p>Find every env var your code reads, then document it. Generates <code>.env.example</code> and fails CI on undocumented vars.</p>
       <p><code>npx @bobfromarcher/envdoc</code></p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/bobfromarcher/portkill">portkill</a></h3>
-      <p>Find and kill whatever is holding a TCP port. Cross-platform. The cure for <code>EADDRINUSE</code>.</p>
+      <p>Find and kill whatever is holding a TCP port. Cross-platform. The fix for <code>EADDRINUSE</code>.</p>
       <p><code>npx @bobfromarcher/portkill 3000</code></p>
     </td>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/bobfromarcher/chlog">chlog</a></h3>
-      <p>Generate a clean Keep-a-Changelog <code>CHANGELOG.md</code> from your conventional commits and git tags.</p>
+      <p>Generate a Keep-a-Changelog <code>CHANGELOG.md</code> from your conventional commits and git tags.</p>
       <p><code>npx @bobfromarcher/chlog --write</code></p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/bobfromarcher/gitsweep">gitsweep</a></h3>
-      <p>Safely find and prune stale local branches — fully-merged or remote-gone, never the ones you care about.</p>
+      <p>Find and prune stale local branches that are merged or remote-gone, never the ones you still need.</p>
       <p><code>npx @bobfromarcher/gitsweep</code></p>
     </td>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/bobfromarcher/licsweep">licsweep</a></h3>
-      <p>Audit your dependency licenses — flag copyleft/unknown and fail CI on a deny-list before legal risk ships.</p>
+      <p>Audit your dependency licenses. Flag copyleft and unknown, and fail CI on a deny-list.</p>
       <p><code>npx @bobfromarcher/licsweep --check</code></p>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/bobfromarcher/leaksweep">leaksweep</a></h3>
-      <p>Scan your code for committed secrets — API keys, tokens, private keys, high-entropy strings. Pre-commit hook + CI gate.</p>
+      <p>Scan code for committed secrets: API keys, tokens, private keys, high-entropy strings. Pre-commit hook and CI gate.</p>
       <p><code>npx @bobfromarcher/leaksweep --staged</code></p>
     </td>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/bobfromarcher/ghcard">ghcard</a></h3>
-      <p>Generate self-contained SVG stat cards + a profile README from any GitHub account — no third-party image services.</p>
+      <p>Generate self-contained SVG stat cards and a profile README from any GitHub account. No third-party image services.</p>
       <p><code>npx @bobfromarcher/ghcard you --readme</code></p>
     </td>
   </tr>
 </table>
 
-> 💡 The cards at the top were rendered by **ghcard** — this very page is a self-contained build with zero external requests.
+The cards at the top were rendered by ghcard. This page is a self-contained build with no external requests.
 
-**The "sweep" trio** — three tools, one philosophy: keep your repo clean before it bites you. **[gitsweep](https://github.com/bobfromarcher/gitsweep)** sweeps stale branches · **[licsweep](https://github.com/bobfromarcher/licsweep)** sweeps risky licenses · **[leaksweep](https://github.com/bobfromarcher/leaksweep)** sweeps committed secrets.
+gitsweep, licsweep and leaksweep share one idea: keep the repo clean before it bites you. They sweep stale branches, risky licenses and committed secrets.
 
-## 🔬 Other open source
+## Other open source
 
-- **[LocoPilot](https://github.com/bobfromarcher/LocoPilot)** — Vision, browser, and desktop control for any local LLM — 35 endpoints, zero cloud, one file
+- [LocoPilot](https://github.com/bobfromarcher/LocoPilot): vision, browser and desktop control for any local LLM. 35 endpoints, zero cloud, one file.
 
-## 📊 Philosophy
+## How these tools are built
 
-- **Zero dependencies.** Every tool is a single Node file with no `node_modules`. Nothing to audit, nothing to break.
-- **Zero AI at runtime.** Deterministic, offline, fast — they enhance humans and AI agents alike.
-- **One job, done well.** Small surface area, clear output, scriptable `--json` everywhere.
+- Zero dependencies. Each tool is a single Node file with no `node_modules`. Nothing to audit, nothing to break.
+- Zero AI at runtime. Deterministic, offline and fast, so they help humans and AI agents alike.
+- One job each, with a clear output and `--json` everywhere for scripting.
 
-## 🔗 Links
+## Links
 
-[TachyonTracker](https://tachyontracker.com) · [COI Validator](https://coivalidator.com) · [gradeAfoods](https://gradeafoods.com)
+[TachyonTracker](https://tachyontracker.com), [COI Validator](https://coivalidator.com), [gradeAfoods](https://gradeafoods.com)
 
-<p align="center"><sub>Profile generated by <a href="https://github.com/bobfromarcher/ghcard">ghcard</a> — no third-party services, just SVG.</sub></p>
+<p align="center"><sub>Profile generated by <a href="https://github.com/bobfromarcher/ghcard">ghcard</a>. No third-party services, just SVG.</sub></p>
